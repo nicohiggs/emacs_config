@@ -11,13 +11,13 @@
 (tool-bar-mode 0)
 
 ;; colour theme
-(load-theme 'solarized-selenized-white t)
+(load-theme 'solarized-light t)
 (global-hl-line-mode 1)
 (add-to-list 'default-frame-alist '(font . "Cascadia Mono-11.5"))
 (set-face-attribute 'default t :font "Cascadia Mono-11.5")
 
 ;; solid cursor
-(blink-cursor-mode 0)
+;; (blink-cursor-mode 0)
 
 ;; org mode
 (require 'org)
